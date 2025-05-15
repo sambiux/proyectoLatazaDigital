@@ -62,8 +62,7 @@ body{
 .sesionUsuario{
     display: flex;
     justify-content: space-between;
-    width: 64vh;
-    height: 20vh;
+    width: 94vh;
     margin-right: 7vh;
 }
 
@@ -71,6 +70,7 @@ body{
     border: 2px solid black;
     border-radius: 12px;
     padding: 0.8vh;
+    height: 15vh;
 }
 
 .sesionUsuario div:nth-child(1){
