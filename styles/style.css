@@ -63,7 +63,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 64vh;
-    
+    height: 20vh;
     margin-right: 7vh;
 }
 
