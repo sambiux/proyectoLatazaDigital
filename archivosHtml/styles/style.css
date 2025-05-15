@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+body{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    gap: 1vh;
+    
+
+}
+
+.informacionGeneralMenu{
+
+    display: grid;
+    grid-column: 1/ 8;
+    grid-row: 1/ 2;
+    display: flex;
+    justify-content: space-between;
+    background-color:#F5CEDD ;
+    height: 23vh;
+    align-items: center;
+    
+    
+    
+}
+
+.menuGeneral{
+    display: flex;
+    justify-content: space-between;
+    width: 24vw;
+    margin-left: 5vw;
+    align-items: center;
+    
+}
+
+
+.menuGeneral img{
+    width: 5vw;
+    height: 12vh;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.menuGeneral img:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+.menuGeneral div:hover{
+    border-bottom: 2px solid black;
+}
+
+
+.sesionUsuario{
+    display: flex;
+    justify-content: space-between;
+    width: 34vh;
+    margin-right: 7vh;
+}
+
+.sesionUsuario div{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 0.8vh;
+}
+
+.sesionUsuario div:nth-child(1){
+    background-color: black;
+    color: #F5CEDD ;
+}
+
+.sesionUsuario div:hover{
+    background-color: white;
+    opacity: 0.7;
+}
+
+
+
+.informacionGeneralProd{
+    display: grid;
+    grid-column: 1/ 7;
+    grid-row: 2/ 3;
+    height: 2vh;
+    width: 98vw;
+    gap: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagensProductos{
+    display: flex;
+    flex-direction: row;
+    gap: 17vh;
+}
+
+.imagensProductos img{
+    width: 30vh ;
+    height: 30vh;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.imagensProductos div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagensProductos div button{
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family:  "Paytone One", sans-serif ;
+    height: 6vh;
+    width: 14vw;
+    background-color: white;
+    margin-top: 2vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagensProductos div button:hover{
+    box-shadow: 3px 3px 3px;
+    background-color: #F5CEDD ;
+    opacity: 0.5;
+
+}
+
+.fraseLocal{
+    
+    grid-column: 1/ 7;
+    grid-row: 3/ 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.fraseLocal div{
+    border: 2px solid black;
+    background-color: #5C0A0A;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh;
+    width: 56vw;
+    font-size: 1.4em;
+}
+
+.imagenRepresentativaCafe{
+    grid-column: 1/ 3;
+    grid-row: 4/ 6;
+    margin-top: 14vh;
+    width: 32vw;
+    border-radius: 12px;
+}
+
+.imagenRepresentativaCafe img{
+    width: 40vw;
+    height: 100vh;
+    margin-left: 5vw;
+    object-fit: contain;
+    
+    
+}
+
+.informacioProductoCafe{
+    grid-column: 4/ 7;
+    grid-row: 4/ 6;
+    margin-top: 14vh ;
+    height: 100vh;
+    width: 24vw;
+    margin-left: vw;
+}
+
+.informacioProductoCafe button{
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family:  "Paytone One", sans-serif ;
+    height: 6vh;
+    width: 8vw;
+    background-color: white;
+    margin-top: 2vh;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.informacioProductoCafe button:hover{
+    box-shadow: 3px 3px 3px;
+    background-color: #F5CEDD ;
+    opacity: 0.5;
+    
+
+}
+
+.pieDePagina{
+    grid-column: 1/ 8;
+    grid-row: 6/ 8 ;
+    background-color: #F5CEDD;
+    display: flex;
+    align-items: center;
+   
+}
+
+.pieDePagina img{
+    height: 17vh;
+    width: 7vw;
+    margin-left: 10vh;
+    margin-bottom: 22vh;
+}
+
+.logosRedes{
+    display: flex;
+    justify-content:space-between;
+    width: 2vw;
+    margin-bottom: 12vh ;
+    
+}
+
+.pieDePagina .logosRedes img{
+    width: 3vw;
+    height: 3vh;
+    object-fit: contain;
+}
+

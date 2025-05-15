@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    font-family: "Paytone One", sans-serif;
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
