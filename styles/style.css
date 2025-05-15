@@ -62,7 +62,7 @@ body{
 .sesionUsuario{
     display: flex;
     justify-content: space-between;
-    width: 94vh;
+    width: 74vh;
     margin-right: 7vh;
 }
 
