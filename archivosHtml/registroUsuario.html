@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro de Usuario</title>
     <link rel="stylesheet" href="styles/styleRegistroUsuario.css">
 </head>
 <body>
+
+    <div class="logoMarca">
+        <img src="imagenes/logo2imagen.jpg" alt="Logo">
+    </div>
+
     <div class="registroUsuario">
-        <h2>Registro</h2>
-        <div class="usuarioFormulario">
-            <form action="">
-                <p>Correo Electronico</p>
-                <input type="email">
-                <p>Contraseña</p>
-                <input type="password">
-                <p>Usuario</p>
-                <input type="text">
-            </form>
+        <div class="ingresoDatos">
+            <h2>Registro de Usuario</h2>
+            <div class="usuarioFormulario">
+                <form id="formRegistro">
+                    <p>Nombre Completo</p>
+                    <input type="text" id="nombre" required>
+
+                    <p>Correo Electrónico</p>
+                    <input type="email" id="correo" required>
+
+                    <p>Contraseña</p>
+                    <input type="password" id="contrasena" required minlength="6">
+
+                    <button type="submit" class="btnRegistro">Siguiente</button>
+                </form>
+                <div id="errores" style="color: red; margin-top: 10px;"></div>
+            </div>
         </div>
     </div>
+
+    <script src="Js/validacionRegistro.js"></script>
+</body>
+</html>
+
 </body>
 </html>
